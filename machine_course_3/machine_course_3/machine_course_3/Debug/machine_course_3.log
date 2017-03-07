@@ -1,0 +1,4 @@
+﻿  3.cpp
+d:\mycpp\machine_course_3\machine_course_3\machine_course_3\3.cpp(71): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+MSVCRTD.lib(exe_winmain.obj) : error LNK2019: 无法解析的外部符号 _WinMain@16，该符号在函数 "int __cdecl invoke_main(void)" (?invoke_main@@YAHXZ) 中被引用
+D:\myCpp\machine_course_3\machine_course_3\Debug\machine_course_3.exe : fatal error LNK1120: 1 个无法解析的外部命令

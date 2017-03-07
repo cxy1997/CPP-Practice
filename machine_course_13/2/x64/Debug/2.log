@@ -1,0 +1,4 @@
+﻿  2.cpp
+d:\mycpp\machine_course_13\2\2.cpp(43): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+  2.vcxproj -> D:\myCpp\machine_course_13\x64\Debug\2.exe
+  2.vcxproj -> D:\myCpp\machine_course_13\x64\Debug\2.pdb (Full PDB)

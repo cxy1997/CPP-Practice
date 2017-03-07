@@ -1,0 +1,7 @@
+﻿  4.cpp
+d:\mycpp\machine_course_5\4\4.cpp(10): warning C4099: “stat”: 类型名称以前使用“struct”现在使用的是“class”
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\sys\stat.h(91): note: 参见“stat”的声明
+d:\mycpp\machine_course_5\4\4.cpp(41): warning C4018: “<”: 有符号/无符号不匹配
+d:\mycpp\machine_course_5\4\4.cpp(75): warning C4018: “<”: 有符号/无符号不匹配
+  4.vcxproj -> D:\myCpp\machine_course_5\Debug\4.exe
+  4.vcxproj -> D:\myCpp\machine_course_5\Debug\4.pdb (Full PDB)

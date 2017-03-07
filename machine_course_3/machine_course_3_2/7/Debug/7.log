@@ -1,0 +1,26 @@
+﻿  源.cpp
+d:\mycpp\machine_course_3\machine_course_3_2\7\源.cpp(4): error C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(205): note: 参见“fopen”的声明
+d:\mycpp\machine_course_3\machine_course_3_2\7\源.cpp(11): warning C4477: “fscanf_s”: 格式字符串“%d”需要类型“int *”的参数，但可变参数 1 拥有了类型“unsigned __int64 *”
+  d:\mycpp\machine_course_3\machine_course_3_2\7\源.cpp(11): note: 请考虑在格式字符串中使用“%lld”
+  d:\mycpp\machine_course_3\machine_course_3_2\7\源.cpp(11): note: 请考虑在格式字符串中使用“%I64d”
+d:\mycpp\machine_course_3\machine_course_3_2\7\源.cpp(22): warning C4477: “fscanf_s”: 格式字符串“%d”需要类型“int *”的参数，但可变参数 2 拥有了类型“unsigned __int64 *”
+  d:\mycpp\machine_course_3\machine_course_3_2\7\源.cpp(22): note: 请考虑在格式字符串中使用“%lld”
+  d:\mycpp\machine_course_3\machine_course_3_2\7\源.cpp(22): note: 请考虑在格式字符串中使用“%I64d”
+d:\mycpp\machine_course_3\machine_course_3_2\7\源.cpp(35): warning C4477: “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 3 拥有了类型“unsigned __int64”
+  d:\mycpp\machine_course_3\machine_course_3_2\7\源.cpp(35): note: 请考虑在格式字符串中使用“%lld”
+  d:\mycpp\machine_course_3\machine_course_3_2\7\源.cpp(35): note: 请考虑在格式字符串中使用“%I64d”
+d:\mycpp\machine_course_3\machine_course_3_2\7\源.cpp(35): warning C4477: “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 4 拥有了类型“unsigned __int64”
+  d:\mycpp\machine_course_3\machine_course_3_2\7\源.cpp(35): note: 请考虑在格式字符串中使用“%lld”
+  d:\mycpp\machine_course_3\machine_course_3_2\7\源.cpp(35): note: 请考虑在格式字符串中使用“%I64d”
+d:\mycpp\machine_course_3\machine_course_3_2\7\源.cpp(41): warning C4477: “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 1 拥有了类型“unsigned __int64”
+  d:\mycpp\machine_course_3\machine_course_3_2\7\源.cpp(41): note: 请考虑在格式字符串中使用“%lld”
+  d:\mycpp\machine_course_3\machine_course_3_2\7\源.cpp(41): note: 请考虑在格式字符串中使用“%I64d”
+d:\mycpp\machine_course_3\machine_course_3_2\7\源.cpp(43): warning C4477: “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 1 拥有了类型“unsigned __int64”
+  d:\mycpp\machine_course_3\machine_course_3_2\7\源.cpp(43): note: 请考虑在格式字符串中使用“%lld”
+  d:\mycpp\machine_course_3\machine_course_3_2\7\源.cpp(43): note: 请考虑在格式字符串中使用“%I64d”
+d:\mycpp\machine_course_3\machine_course_3_2\7\源.cpp(45): warning C4477: “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 1 拥有了类型“unsigned __int64”
+  d:\mycpp\machine_course_3\machine_course_3_2\7\源.cpp(45): note: 请考虑在格式字符串中使用“%lld”
+  d:\mycpp\machine_course_3\machine_course_3_2\7\源.cpp(45): note: 请考虑在格式字符串中使用“%I64d”
+d:\mycpp\machine_course_3\machine_course_3_2\7\源.cpp(48): warning C4477: “printf”: 格式字符串“%0.2f”需要类型“double”的参数，但可变参数 1 拥有了类型“unsigned __int64”
+d:\mycpp\machine_course_3\machine_course_3_2\7\源.cpp(48): warning C4477: “printf”: 格式字符串“%0.2f”需要类型“double”的参数，但可变参数 2 拥有了类型“unsigned __int64”

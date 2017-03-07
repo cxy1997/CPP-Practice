@@ -1,0 +1,6 @@
+﻿  1_2.cpp
+d:\mycpp\machine_course_7+\1_2\1_2.cpp(10): warning C4091: “typedef ”: 没有声明变量时忽略“Date”的左侧
+d:\mycpp\machine_course_7+\1_2\1_2.cpp(16): warning C4091: “typedef ”: 没有声明变量时忽略“Person”的左侧
+d:\mycpp\machine_course_7+\1_2\1_2.cpp(21): warning C4091: “typedef ”: 没有声明变量时忽略“List”的左侧
+  1_2.vcxproj -> D:\myCpp\machine_course_7+\Debug\1_2.exe
+  1_2.vcxproj -> D:\myCpp\machine_course_7+\Debug\1_2.pdb (Full PDB)

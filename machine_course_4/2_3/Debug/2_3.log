@@ -1,0 +1,4 @@
+﻿  store_temps.cpp
+d:\mycpp\machine_course_4\2_3\store_temps.cpp(18): warning C4244: “参数”: 从“time_t”转换到“unsigned int”，可能丢失数据
+  2_3.vcxproj -> D:\myCpp\machine_course_4\Debug\2_3.exe
+  2_3.vcxproj -> D:\myCpp\machine_course_4\Debug\2_3.pdb (Full PDB)

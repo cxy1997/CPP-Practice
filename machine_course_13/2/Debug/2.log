@@ -1,0 +1,6 @@
+﻿C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppClean.targets(76,5): warning : 文件“f:\program files (x86)\steam\gameoverlayrenderer.log”正由另一进程使用，因此该进程无法访问此文件。
+  2.cpp
+d:\mycpp\machine_course_13\2\2.cpp(42): warning C4018: “<”: 有符号/无符号不匹配
+d:\mycpp\machine_course_13\2\2.cpp(45): warning C4018: “<”: 有符号/无符号不匹配
+  2.vcxproj -> D:\myCpp\machine_course_13\Debug\2.exe
+  2.vcxproj -> D:\myCpp\machine_course_13\Debug\2.pdb (Full PDB)

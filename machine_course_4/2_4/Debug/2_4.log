@@ -1,0 +1,4 @@
+﻿  store_temps.cpp
+d:\mycpp\machine_course_4\2_4\store_temps.cpp(26): warning C4018: “<”: 有符号/无符号不匹配
+  2_4.vcxproj -> D:\myCpp\machine_course_4\Debug\2_4.exe
+  2_4.vcxproj -> D:\myCpp\machine_course_4\Debug\2_4.pdb (Full PDB)

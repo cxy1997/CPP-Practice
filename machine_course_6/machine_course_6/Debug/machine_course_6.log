@@ -1,0 +1,5 @@
+﻿  1.cpp
+d:\mycpp\machine_course_6\machine_course_6\1.cpp(24): warning C4715: “Rectangle::setLength”: 不是所有的控件路径都返回值
+d:\mycpp\machine_course_6\machine_course_6\1.cpp(30): warning C4715: “Rectangle::setWidth”: 不是所有的控件路径都返回值
+  machine_course_6.vcxproj -> D:\myCpp\machine_course_6\Debug\1.exe
+  machine_course_6.vcxproj -> D:\myCpp\machine_course_6\Debug\1.pdb (Full PDB)

@@ -1,0 +1,11 @@
+﻿  3.cpp
+d:\mycpp\machine_course_8\3\3.cpp(1): warning C4067: 预处理器指令后有意外标记 - 应输入换行符
+d:\mycpp\machine_course_8\3\3.cpp(2): warning C4067: 预处理器指令后有意外标记 - 应输入换行符
+d:\mycpp\machine_course_8\3\graph.h(45): warning C4305: “初始化”: 从“Graph_lib::Color::Transparency”到“char”截断
+d:\mycpp\machine_course_8\3\graph.h(45): warning C4309: “初始化”: 截断常量值
+d:\mycpp\machine_course_8\3\graph.h(47): warning C4305: “初始化”: 从“Graph_lib::Color::Transparency”到“char”截断
+d:\mycpp\machine_course_8\3\graph.h(47): warning C4309: “初始化”: 截断常量值
+d:\mycpp\machine_course_8\3\star.h(19): warning C4838: 从“int”转换到“double”需要收缩转换
+d:\mycpp\machine_course_8\3\star.h(23): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+  3.vcxproj -> D:\myCpp\machine_course_8\Debug\3.exe
+  3.vcxproj -> D:\myCpp\machine_course_8\Debug\3.pdb (Full PDB)

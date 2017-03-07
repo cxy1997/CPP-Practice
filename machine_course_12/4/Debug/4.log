@@ -1,0 +1,10 @@
+﻿  4.cpp
+d:\mycpp\machine_course_12\4\4.cpp(76): warning C4018: “>”: 有符号/无符号不匹配
+  d:\mycpp\machine_course_12\4\4.cpp(95): note: 参见对正在编译的函数 模板 实例化“T addup<Number<double>>(const std::vector<Number<double>,std::allocator<_Ty>> &,const std::vector<_Ty,std::allocator<_Ty>> &)”的引用
+          with
+          [
+              T=Number<double>,
+              _Ty=Number<double>
+          ]
+  4.vcxproj -> D:\myCpp\machine_course_12\Debug\4.exe
+  4.vcxproj -> D:\myCpp\machine_course_12\Debug\4.pdb (Full PDB)

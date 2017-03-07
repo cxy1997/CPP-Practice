@@ -1,0 +1,4 @@
+﻿  3.cpp
+3.cpp(71): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+MSVCRT.lib(exe_winmain.obj) : error LNK2001: 无法解析的外部符号 _WinMain@16
+D:\myCpp\machine_course_3\machine_course_3\Release\machine_course_3.exe : fatal error LNK1120: 1 个无法解析的外部命令

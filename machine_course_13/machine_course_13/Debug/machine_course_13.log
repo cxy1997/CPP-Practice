@@ -1,0 +1,12 @@
+﻿  1.cpp
+d:\mycpp\machine_course_13\machine_course_13\1.cpp(30): error C2061: 语法错误: 标识符“Document”
+d:\mycpp\machine_course_13\machine_course_13\1.cpp(32): error C2065: “t”: 未声明的标识符
+d:\mycpp\machine_course_13\machine_course_13\1.cpp(33): error C2065: “t”: 未声明的标识符
+d:\mycpp\machine_course_13\machine_course_13\1.cpp(35): error C2065: “d”: 未声明的标识符
+d:\mycpp\machine_course_13\machine_course_13\1.cpp(35): error C2228: “.line”的左边必须有类/结构/联合
+  d:\mycpp\machine_course_13\machine_course_13\1.cpp(35): note: 类型是“unknown-type”
+d:\mycpp\machine_course_13\machine_course_13\1.cpp(35): error C2228: “.insert”的左边必须有类/结构/联合
+d:\mycpp\machine_course_13\machine_course_13\1.cpp(97): warning C4018: “<=”: 有符号/无符号不匹配
+d:\mycpp\machine_course_13\machine_course_13\1.cpp(130): warning C4018: “<”: 有符号/无符号不匹配
+d:\mycpp\machine_course_13\machine_course_13\1.cpp(131): warning C4018: “<”: 有符号/无符号不匹配
+d:\mycpp\machine_course_13\machine_course_13\1.cpp(131): error C2660: “Text_iterator::insert”: 函数不接受 2 个参数

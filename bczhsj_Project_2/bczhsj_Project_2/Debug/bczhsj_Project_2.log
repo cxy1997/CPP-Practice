@@ -1,0 +1,4 @@
+﻿  1.cpp
+d:\mycpp\bczhsj_project_2\bczhsj_project_2\1.cpp(131): warning C4018: “<”: 有符号/无符号不匹配
+  bczhsj_Project_2.vcxproj -> D:\myCpp\bczhsj_Project_2\Debug\1.exe
+  bczhsj_Project_2.vcxproj -> D:\myCpp\bczhsj_Project_2\Debug\1.pdb (Full PDB)

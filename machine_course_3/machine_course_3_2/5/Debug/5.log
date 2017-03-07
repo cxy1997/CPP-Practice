@@ -1,0 +1,11 @@
+﻿  5.cpp
+d:\mycpp\machine_course_3\machine_course_3_2\5\5.cpp(53): warning C4018: “<”: 有符号/无符号不匹配
+d:\mycpp\machine_course_3\machine_course_3_2\5\5.cpp(26): warning C4018: “<”: 有符号/无符号不匹配
+  d:\mycpp\machine_course_3\machine_course_3_2\5\5.cpp(60): note: 参见对正在编译的函数 模板 实例化“void calculate<double>(std::vector<double,std::allocator<_Ty>>,T &,T &,double &,double &)”的引用
+          with
+          [
+              _Ty=double,
+              T=double
+          ]
+  5.vcxproj -> D:\myCpp\machine_course_3\machine_course_3_2\Debug\5.exe
+  5.vcxproj -> D:\myCpp\machine_course_3\machine_course_3_2\Debug\5.pdb (Full PDB)

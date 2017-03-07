@@ -1,0 +1,5 @@
+﻿  4.cpp
+d:\mycpp\machine_course_4\4\4.cpp(23): warning C4018: “<”: 有符号/无符号不匹配
+d:\mycpp\machine_course_4\4\4.cpp(31): warning C4018: “<”: 有符号/无符号不匹配
+  4.vcxproj -> D:\myCpp\machine_course_4\Debug\4.exe
+  4.vcxproj -> D:\myCpp\machine_course_4\Debug\4.pdb (Full PDB)

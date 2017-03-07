@@ -1,0 +1,7 @@
+﻿C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(392,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (machine_course_7+.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  1_1.cpp
+d:\mycpp\machine_course_7+\machine_course_7+\1_1.cpp(10): warning C4091: “typedef ”: 没有声明变量时忽略“Date”的左侧
+d:\mycpp\machine_course_7+\machine_course_7+\1_1.cpp(16): warning C4091: “typedef ”: 没有声明变量时忽略“Person”的左侧
+d:\mycpp\machine_course_7+\machine_course_7+\1_1.cpp(21): warning C4091: “typedef ”: 没有声明变量时忽略“List”的左侧
+  machine_course_7+.vcxproj -> D:\myCpp\machine_course_7+\Debug\1_1.exe
+  machine_course_7+.vcxproj -> D:\myCpp\machine_course_7+\Debug\1_1.pdb (Full PDB)

@@ -1,0 +1,4 @@
+﻿  2.cpp
+d:\mycpp\machine_course_6\2\2.cpp(52): warning C4244: “*=”: 从“double”转换到“int”，可能丢失数据
+  2.vcxproj -> D:\myCpp\machine_course_6\Debug\2.exe
+  2.vcxproj -> D:\myCpp\machine_course_6\Debug\2.pdb (Full PDB)

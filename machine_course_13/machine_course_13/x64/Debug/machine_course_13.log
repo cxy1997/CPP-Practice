@@ -1,0 +1,4 @@
+﻿  1.cpp
+d:\mycpp\machine_course_13\machine_course_13\1.cpp(142): warning C4715: “find_and_replace”: 不是所有的控件路径都返回值
+  machine_course_13.vcxproj -> D:\myCpp\machine_course_13\x64\Debug\1.exe
+  machine_course_13.vcxproj -> D:\myCpp\machine_course_13\x64\Debug\1.pdb (Full PDB)

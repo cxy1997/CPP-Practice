@@ -1,0 +1,156 @@
+#include "FL/Fl.H"
+#include "FL/Fl_Window.H"
+#include "FL/Fl_Box.H"
+#include "FL/Fl_draw.H"
+#include "Window.h";
+#include "Graph.h";
+#include <cmath>
+#include <iostream>
+#include "windows.h"
+#include "FL/Fl_Output.H"
+#include "Li.h"
+
+using namespace Graph_lib;
+using namespace std;
+int main(int argc, char** argv)
+{
+	Graph_lib::Window win(800, 600, "1");
+	
+	Fl_Box r1(390, 40, 110, 35);
+	r1.color(Color::yellow);
+	r1.box(FL_BORDER_BOX);
+	win.add(r1);
+	Fl_Box r2(395, 45, 110, 35);
+	r2.color(Color::yellow);
+	r2.box(FL_BORDER_BOX);
+	win.add(r2);
+	Fl_Box r3(400, 50, 110, 35, "FLTK headers");
+	r3.color(Color::yellow);
+	r3.box(FL_BORDER_BOX);
+	r3.align(FL_ALIGN_INSIDE+FL_ALIGN_TOP);
+	win.add(r3);
+	Fl_Box r4(565, 90, 85, 37);
+	r4.color(Color::yellow);
+	r4.box(FL_BORDER_BOX);
+	win.add(r4);
+	Fl_Box r5(570, 95, 85, 37);
+	r5.color(Color::yellow);
+	r5.box(FL_BORDER_BOX);
+	win.add(r5);
+	Fl_Box r6(575, 100, 85, 37, "FLTK code");
+	r6.color(Color::yellow);
+	r6.box(FL_BORDER_BOX);
+	r6.align(FL_ALIGN_INSIDE + FL_ALIGN_TOP);
+	win.add(r6);
+	Fl_Box r7(375, 160, 140, 65, "// window interface:\nclass Window {...}; \n...                           ");
+	r7.color(Color::yellow);
+	r7.box(FL_BORDER_BOX);
+	r7.align(FL_ALIGN_INSIDE + FL_ALIGN_TOP);
+	win.add(r7);
+	Fl_Box r8(375, 140, 140, 19, "Window.h");
+	r8.box(FL_NO_BOX);
+	r8.align(FL_ALIGN_INSIDE + FL_ALIGN_LEFT);
+	win.add(r8);
+	Fl_Box r9(490, 260, 130, 65, "// GUI interface:   \nstruct In_box {...};\n...                        ");
+	r9.color(Color::yellow);
+	r9.box(FL_BORDER_BOX);
+	r9.align(FL_ALIGN_INSIDE + FL_ALIGN_TOP);
+	win.add(r9);
+	Fl_Box r10(490, 240, 130, 19, "GUI.h");
+	r10.box(FL_NO_BOX);
+	r10.align(FL_ALIGN_INSIDE + FL_ALIGN_LEFT);
+	win.add(r10);
+	Fl_Box r11(175,	90, 120, 25, "struct Point {...};");
+	r11.color(Color::yellow);
+	r11.box(FL_BORDER_BOX);
+	r11.align(FL_ALIGN_INSIDE + FL_ALIGN_TOP);
+	win.add(r11);
+	Fl_Box r12(175, 70, 120, 19, "Point.h");
+	r12.box(FL_NO_BOX);
+	r12.align(FL_ALIGN_INSIDE + FL_ALIGN_LEFT);
+	win.add(r12);
+	Fl_Box r13(175, 200, 145, 65, "// graphing interface:\nstruct Shape {...};     \n...                             ");
+	r13.color(Color::yellow);
+	r13.box(FL_BORDER_BOX);
+	r13.align(FL_ALIGN_INSIDE + FL_ALIGN_TOP);
+	win.add(r13);
+	Fl_Box r14(175, 180, 145, 19, "Graph.h");
+	r14.box(FL_NO_BOX);
+	r14.align(FL_ALIGN_INSIDE + FL_ALIGN_LEFT);
+	win.add(r14);
+	Fl_Box r15(290, 300, 100, 25, "Window code");
+	r15.color(Color::yellow);
+	r15.box(FL_BORDER_BOX);
+	r15.align(FL_ALIGN_INSIDE + FL_ALIGN_TOP);
+	win.add(r15);
+	Fl_Box r16(290, 280, 100, 19, "window.cpp");
+	r16.box(FL_NO_BOX);
+	r16.align(FL_ALIGN_INSIDE + FL_ALIGN_LEFT);
+	win.add(r16);
+	Fl_Box r17(310, 380, 177, 65, "//window interface:          \nclass Simple_window {...};\n...                                     ");
+	r17.color(Color::yellow);
+	r17.box(FL_BORDER_BOX);
+	r17.align(FL_ALIGN_INSIDE + FL_ALIGN_TOP);
+	win.add(r17);
+	Fl_Box r18(310, 360, 177, 19, "Simple_window.h");
+	r18.box(FL_NO_BOX);
+	r18.align(FL_ALIGN_INSIDE + FL_ALIGN_LEFT);
+	win.add(r18);
+	Fl_Box r19(507, 370, 77, 25, "GUI code");
+	r19.color(Color::yellow);
+	r19.box(FL_BORDER_BOX);
+	r19.align(FL_ALIGN_INSIDE + FL_ALIGN_TOP);
+	win.add(r19);
+	Fl_Box r20(507, 350, 77, 19, "GUI.cpp");
+	r20.box(FL_NO_BOX);
+	r20.align(FL_ALIGN_INSIDE + FL_ALIGN_LEFT);
+	win.add(r20);
+	Fl_Box r21(130, 370, 90, 25, "Graph code");
+	r21.color(Color::yellow);
+	r21.box(FL_BORDER_BOX);
+	r21.align(FL_ALIGN_INSIDE + FL_ALIGN_TOP);
+	win.add(r21);
+	Fl_Box r22(130, 350, 90, 19, "Graph.cpp");
+	r22.box(FL_NO_BOX);
+	r22.align(FL_ALIGN_INSIDE + FL_ALIGN_LEFT);
+	win.add(r22);
+	Fl_Box r23(200, 485, 185, 65, "#include \"Graph.h\"              \n#include \"Simple_window.h\"\nint main() {...}                       ");
+	r23.color(Color::yellow);
+	r23.box(FL_BORDER_BOX);
+	r23.align(FL_ALIGN_INSIDE + FL_ALIGN_TOP);
+	win.add(r23);
+	Fl_Box r24(200, 465, 185, 19, "chapter12.cpp");
+	r24.box(FL_NO_BOX);
+	r24.align(FL_ALIGN_INSIDE + FL_ALIGN_LEFT);
+	win.add(r24);
+	li a1(Point(455, 160), Point(455, 85));
+	a1.affiliate_to(win);
+	li a2(Point(245, 200), Point(245, 115));
+	a2.affiliate_to(win);
+	li a3(Point(565, 98), Point(510, 67));
+	a3.affiliate_to(win);
+	li a4(Point(245, 200), Point(410, 85));
+	a4.affiliate_to(win);
+	li a5(Point(396, 160), Point(275, 115));
+	a5.affiliate_to(win);
+	li a6(Point(570, 260), Point(475, 85));
+	a6.affiliate_to(win);
+	li a7(Point(570, 260), Point(505, 225));
+	a7.affiliate_to(win);
+	li a8(Point(455, 380), Point(455, 225));
+	a8.affiliate_to(win);
+	li a9(Point(455, 380), Point(505, 325));
+	a9.affiliate_to(win);
+	li a10(Point(365, 300), Point(435, 225));
+	a10.affiliate_to(win);
+	li a11(Point(570, 370), Point(560, 325));
+	a11.affiliate_to(win);
+	li a12(Point(300, 485), Point(260, 265));
+	a12.affiliate_to(win);
+	li a13(Point(300, 485), Point(330, 445));
+	a13.affiliate_to(win);
+	li a14(Point(195, 370), Point(252, 265));
+	a14.affiliate_to(win);
+	win.show(argc, argv);
+	return Fl::run();
+}

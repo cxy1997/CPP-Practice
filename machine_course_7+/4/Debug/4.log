@@ -1,0 +1,9 @@
+﻿  4.cpp
+d:\mycpp\machine_course_7+\4\4.cpp(38): warning C4091: “typedef ”: 没有声明变量时忽略“List”的左侧
+d:\mycpp\machine_course_7+\4\4.cpp(45): warning C4101: “m”: 未引用的局部变量
+d:\mycpp\machine_course_7+\4\4.cpp(45): warning C4101: “y”: 未引用的局部变量
+d:\mycpp\machine_course_7+\4\4.cpp(43): warning C4101: “nbuf”: 未引用的局部变量
+d:\mycpp\machine_course_7+\4\4.cpp(44): warning C4101: “fbuf”: 未引用的局部变量
+d:\mycpp\machine_course_7+\4\4.cpp(45): warning C4101: “d”: 未引用的局部变量
+  4.vcxproj -> D:\myCpp\machine_course_7+\Debug\4.exe
+  4.vcxproj -> D:\myCpp\machine_course_7+\Debug\4.pdb (Full PDB)
